@@ -1,0 +1,9 @@
+use_frameworks!
+
+platform :ios, '16.0'
+project './iosApp.xcodeproj'
+
+target 'iosApp' do
+    pod 'shared', :path => '../shared'
+    pod 'KodaBotsSDK'
+end
